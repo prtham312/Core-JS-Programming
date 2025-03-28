@@ -1,0 +1,16 @@
+*{
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px;
+
+}
+body{
+    background: #2084d6;
+}
+parent{
+    display: flex;
+}
+child{
+    flex: 1;
+    padding: 2;
+}
