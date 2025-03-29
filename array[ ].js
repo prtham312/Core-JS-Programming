@@ -71,3 +71,12 @@ function third(){
   return sortedArr[2]
 }
 console.log(third(arr11));
+
+
+//convert elements into string
+const arr12 = ["hello" , 12 , "how" , "are"];
+console.log(typeof(arr12[1]));
+const stringArray = arr12.map(element => element.toString());
+console.log(typeof(stringArray[1]));
+console.log(stringArray);
+
