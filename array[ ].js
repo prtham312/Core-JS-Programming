@@ -33,7 +33,7 @@ function max_element(arra){
 max_element(arr);
 
 
-//Merge two sorted arrays
+//Merge two arrays with sorting
 const arr1 = [1,2];
 const arr2 = [5,4];
 function merged_arr(arr1,arr2){
