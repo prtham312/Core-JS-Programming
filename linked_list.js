@@ -27,7 +27,7 @@ class linkedList{
         }
     }
 
-
+//reverse
     reverse(){
         let prev = null;
         let current = this.head;
