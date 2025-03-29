@@ -8,7 +8,7 @@ arr.pop();
 arr.push(5);
 console.log(arr);
 
-// [...] spread operator is used to convert set back to arr  
+// [...] spread operator is used to convert set back to array
 const arr = [1, 2, 2, 3];
 const uniqueArr = [...new Set(arr)];
 console.log(uniqueArr); // [1, 2, 3]
