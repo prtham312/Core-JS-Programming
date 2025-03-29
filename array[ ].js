@@ -79,4 +79,15 @@ console.log(typeof(arr12[1]));
 const stringArray = arr12.map(element => element.toString());
 console.log(typeof(stringArray[1]));
 console.log(stringArray);
+console.log(typeof(arr12))
+const result = arr12.join("/");
+console.log(result);
 
+
+//shift method is used to removes the first element and moves other to lower indexes
+//unshoft method adds new elements  in starting without moving and removing
+const arr13 = ["banana" , "lemon"]
+arr13.shift()
+console.log(arr13);
+arr13.unshift("banana")
+console.log(arr13);
