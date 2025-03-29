@@ -50,7 +50,7 @@ function freq(arr , target){
 }
 console.log(freq(arr,target));
 
-//find sum of squares of number
+//find sum of squares of number in array
 const arr = [1,2,3,4];
 function square(arr){
     return arr.reduce((sum,num) => sum + num ** 2,0)
