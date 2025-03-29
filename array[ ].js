@@ -9,65 +9,65 @@ arr.push(5);
 console.log(arr);
 
 // [...] spread operator is used to convert set back to array
-const arr = [1, 2, 2, 3];
-const uniqueArr = [...new Set(arr)];
+const arr1 = [1, 2, 2, 3];
+const uniqueArr = [...new Set(arr1)];
 console.log(uniqueArr); // [1, 2, 3]
 
 
 //sort array 
-const arr = [3,2,4,7,1];
+const arr2 = [3,2,4,7,1];
 arr.sort((a,b)=>a-b)
-console.log(arr);
+console.log(arr2);
 
-const arr=[1,2,2,4,4,1,7,4,5,6];
-const uniqArr = [... new Set(arr)];
+const arr3=[1,2,2,4,4,1,7,4,5,6];
+const uniqArr = [... new Set(arr3)];
 uniqArr.sort((a,b)=>a-b);
 console.log(uniqArr);
 
 //max in an array
-const arr=[1,2,4,6,8,6,2,9,7,12,4];
+const arr4=[1,2,4,6,8,6,2,9,7,12,4];
 function max_element(arra){
    let a = Math.max(...arra);
    console.log(a);
 }
-max_element(arr);
+max_element(arr4);
 
 
 //Merge two arrays with sorting
-const arr1 = [1,2];
-const arr2 = [5,4];
-function merged_arr(arr1,arr2){
-    return [...arr1 , ...arr2].sort((a,b)=>a-b)
+const arr5 = [1,2];
+const arr6 = [5,4];
+function merged_arr(arr5,arr6){
+    return [...arr5 , ...arr6].sort((a,b)=>a-b)
 }
-const arr3 = merged_arr(arr1,arr2);
-console.log(arr3);
+const arr7 = merged_arr(arr5,arr6);
+console.log(arr7);
 
 //finding frequency of an element in array
-const arr = [1,2,2,2,1,3,4,3,23,2,2,2];
+const arr8 = [1,2,2,2,1,3,4,3,23,2,2,2];
 const target = 2;
-function freq(arr , target){
-    return arr.filter(item => item==target).length;
+function freq(arr8 , target){
+    return arr8.filter(item => item==target).length;
 }
-console.log(freq(arr,target));
+console.log(freq(arr8,target));
 
 //find sum of squares of number in array
-const arr = [1,2,3,4];
-function square(arr){
+const arr9 = [1,2,3,4];
+function square(arr9){
     return arr.reduce((sum,num) => sum + num ** 2,0)
 }
-console.log(square(arr));
+console.log(square(arr9));
 
 //filter even numbers and sort them in array
-const arr = [1,12,3,4,5,6,7,8,9,0];
-function even_num(arr){
-    return arr.filter(num => num % 2 === 0).sort((a,b)=>a-b);
+const arr10 = [1,12,3,4,5,6,7,8,9,0];
+function even_num(arr10){
+    return arr10.filter(num => num % 2 === 0).sort((a,b)=>a-b);
 }
-console.log(even_num(arr));
+console.log(even_num(arr10));
 
 //third smallest number in an array
-const arr = [1,2,3,4,5,6,7,8];
+const arr11 = [1,2,3,4,5,6,7,8];
 function third(){
-    const sortedArr = arr.sort((a, b) => a - b);
+    const sortedArr = arr11.sort((a, b) => a - b);
   return sortedArr[2]
 }
-console.log(third(arr));
+console.log(third(arr11));
