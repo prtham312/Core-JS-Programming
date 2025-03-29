@@ -64,7 +64,7 @@ function even_num(arr){
 }
 console.log(even_num(arr));
 
-//third smallest number in a array
+//third smallest number in an array
 const arr = [1,2,3,4,5,6,7,8];
 function third(){
     const sortedArr = arr.sort((a, b) => a - b);
