@@ -42,7 +42,7 @@ function merged_arr(arr1,arr2){
 const arr3 = merged_arr(arr1,arr2);
 console.log(arr3);
 
-//finding frequency of an element
+//finding frequency of an element in array
 const arr = [1,2,2,2,1,3,4,3,23,2,2,2];
 const target = 2;
 function freq(arr , target){
