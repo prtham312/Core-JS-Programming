@@ -18,9 +18,5 @@ function selection_sort(arr){
       }
 }
 
-function bubble_sort(arr){
-    
-}
-
 selection_sort(arr);
 console.log(arr);
