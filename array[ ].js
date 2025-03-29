@@ -24,7 +24,7 @@ const uniqArr = [... new Set(arr)];
 uniqArr.sort((a,b)=>a-b);
 console.log(uniqArr);
 
-//max in a array
+//max in an array
 const arr=[1,2,4,6,8,6,2,9,7,12,4];
 function max_element(arra){
    let a = Math.max(...arra);
