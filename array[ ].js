@@ -57,7 +57,7 @@ function square(arr){
 }
 console.log(square(arr));
 
-//filter even numbers and sort them
+//filter even numbers and sort them in array
 const arr = [1,12,3,4,5,6,7,8,9,0];
 function even_num(arr){
     return arr.filter(num => num % 2 === 0).sort((a,b)=>a-b);
