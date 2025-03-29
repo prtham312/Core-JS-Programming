@@ -14,7 +14,7 @@ const uniqueArr = [...new Set(arr)];
 console.log(uniqueArr); // [1, 2, 3]
 
 
-//sort array
+//sort array 
 const arr = [3,2,4,7,1];
 arr.sort((a,b)=>a-b)
 console.log(arr);
