@@ -18,3 +18,10 @@ console.log(y.toPrecision(2));
 console.log(y.toPrecision(3));
 console.log(y.toPrecision(5));
 console.log(y.toPrecision(6));
+
+
+//to return a number from variable
+console.log(Number("100"))
+console.log(typeof(Number("100")))
+console.log(Number("hello"))
+console.log(Number("10.40"))
