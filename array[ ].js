@@ -91,3 +91,10 @@ arr13.shift()
 console.log(arr13);
 arr13.unshift("banana")
 console.log(arr13);
+
+
+//converting multidimensional array to one level down using flat()
+const arr14 = [[1,2] , [3,4] , [5,6]];
+const newArr = arr14.flat();
+console.log(arr14);
+console.log(newArr);
