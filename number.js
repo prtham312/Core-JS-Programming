@@ -10,3 +10,11 @@ console.log(x.toFixed(1));
 console.log(x.toFixed(2));
 console.log(x.toFixed(3));
 console.log(x.toFixed(5));
+
+//setting up a precision
+let y=23.21323131;
+console.log(y.toPrecision());
+console.log(y.toPrecision(2));
+console.log(y.toPrecision(3));
+console.log(y.toPrecision(5));
+console.log(y.toPrecision(6));
