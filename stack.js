@@ -32,5 +32,5 @@ class Stack{
 
 
 const stack = new Stack();
-//stack.print();
-//stack.reverseString("hello");
+stack.print();
+stack.reverseString("hello");
