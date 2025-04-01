@@ -61,3 +61,12 @@ function included(arr , target){
 }
 console.log(included([1 ,2 , 3] , 2 ));
 console.log(included([1 ,2 , 3] , 4 ));
+
+
+//rotate an array
+function rotate_array(arr , n){
+    n = n%arr.length; //where n is greater than array length
+    return [... arr.slice(n) , ...arr.slice(0,n)]
+}
+console.log(rotate_array([1,2,3,4,5],2));
+console.log(rotate_array([1,2,3,4,5],7));
