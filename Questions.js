@@ -40,3 +40,16 @@ function unique_chars(str){
 }
 console.log(unique_chars("abcda"));
 console.log(unique_chars("acfds"))
+
+//Find longest word in a array
+function longest_word(str){
+   const words = str.split(" ");
+   let longest = "";
+   for(let word of words){
+    if(word.length > longest.length){
+        longest = word;
+    }
+   }
+   return longest;
+}
+console.log(longest_word("Hi how are you doing . Let's catch up once in a while"))
