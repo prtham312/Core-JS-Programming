@@ -82,3 +82,9 @@ function substrings(str){
     return sub;
 }
 console.log(substrings("abcd"));
+
+//intersection of two arrays
+function intersection(arr1,arr2){
+    return arr1.filter(item => arr2.includes(item))
+}
+console.log(intersection( [1,2,3,4,5] , [2,4,1,6] ));
