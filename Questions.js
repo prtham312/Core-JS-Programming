@@ -102,3 +102,22 @@ function group_anagrams(str){
     return Object.values(map);
 }
 console.log(group_anagrams(["eat" , "ate" , "tea" , "tan" , "nat" , "date"]))
+
+
+//most frequent element in array
+function most_frequent(arr){
+    const map = {};
+    for(let i of arr){
+        map[i]= (map[i] || 0) + 1;
+    }
+    let max = 0;
+    let element=null;
+    for(key in map){
+        if(map[key]>max){
+            max=map[key]
+            element = key;
+        }
+    }
+    return parseInt(element);
+}
+console.log(most_frequent([1,2,1,1,2,2,3,4,3,1,5,6,7,5,3,3,2,2,2]))
