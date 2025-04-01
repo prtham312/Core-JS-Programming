@@ -88,3 +88,17 @@ function intersection(arr1,arr2){
     return arr1.filter(item => arr2.includes(item))
 }
 console.log(intersection( [1,2,3,4,5] , [2,4,1,6] ));
+
+
+//group anagrams
+function group_anagrams(str){
+    const map = {};
+    for(let word of str){
+        const sorted_word = word.split("").sort().join("");
+        if(!map[sorted_word]) map[sorted_word]= [];
+        map[sorted_word].push(word);
+    }
+
+    return Object.values(map);
+}
+console.log(group_anagrams(["eat" , "ate" , "tea" , "tan" , "nat" , "date"]))
