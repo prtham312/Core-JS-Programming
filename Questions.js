@@ -53,3 +53,11 @@ function longest_word(str){
    return longest;
 }
 console.log(longest_word("Hi how are you doing . Let's catch up once in a while"))
+
+
+//check if element is included in array
+function included(arr , target){
+    return arr.includes(target)
+}
+console.log(included([1 ,2 , 3] , 2 ));
+console.log(included([1 ,2 , 3] , 4 ));
