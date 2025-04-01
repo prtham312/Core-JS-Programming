@@ -25,3 +25,10 @@ function remove_duplicates(arr){
 const arr2 = [1,2,3,2,1,2,3,4,5,5,4,2,1,2,4];
 let res2 = remove_duplicates(arr2);
 console.log(res2);
+
+//Strings are anagram
+function anagram(str1, str2){
+    return str1.split("").sort().join("") == str2.split("").sort().join("")
+}
+console.log(anagram("listen", "silent"));
+console.log(anagram("listen", "silence"));
