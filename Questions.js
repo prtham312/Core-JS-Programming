@@ -17,3 +17,11 @@ function sortArray(arr){
 let n = arr.length;
 sortArray(arr);
 console.log(`First element is ${arr[0]} and last element is ${arr[n-1]}`);
+
+//remove duplicates from array
+function remove_duplicates(arr){
+    return [... new Set(arr)]
+}
+const arr2 = [1,2,3,2,1,2,3,4,5,5,4,2,1,2,4];
+let res2 = remove_duplicates(arr2);
+console.log(res2);
