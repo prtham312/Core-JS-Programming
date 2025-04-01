@@ -70,3 +70,15 @@ function rotate_array(arr , n){
 }
 console.log(rotate_array([1,2,3,4,5],2));
 console.log(rotate_array([1,2,3,4,5],7));
+
+//All substrings of a string
+function substrings(str){
+    const sub = [];
+    for(let i = 0 ; i<str.length ; i++){
+        for(let j = i+1 ; j<=str.length ; j++){
+            sub.push(str.slice(i,j));
+        }
+    }
+    return sub;
+}
+console.log(substrings("abcd"));
