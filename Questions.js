@@ -32,3 +32,11 @@ function anagram(str1, str2){
 }
 console.log(anagram("listen", "silent"));
 console.log(anagram("listen", "silence"));
+
+//check chars in string are unique
+function unique_chars(str){
+    let new_str = [... new Set(str)]
+    return new_str.length == str.length
+}
+console.log(unique_chars("abcda"));
+console.log(unique_chars("acfds"))
