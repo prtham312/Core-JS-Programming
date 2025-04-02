@@ -21,3 +21,10 @@ function reduce_r(arr){
     return arr.reduceRight((total,value) => total-value)
 }
 console.log(reduce_r([-10,1,2,3,4,5]))
+
+
+//Every
+function every_f(arr){
+    return arr.every(num => num>2)
+}
+console.log(every_f([1,2,3,4,5]))
