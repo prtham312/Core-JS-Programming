@@ -131,3 +131,11 @@ class car {
 const car1 = new car("ford", 1972);
 const car2 = new car("honda" , 2019);
 console.log(car1.manufacture);
+
+
+//includes in a string or array
+function included(str , value){
+    return str.includes(value);
+}
+console.log(included("Hello How Are You ? I am fine" , "Arew"))
+console.log(included([1,2,3,4,5],5));
