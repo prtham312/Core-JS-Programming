@@ -34,3 +34,11 @@ function some_f(arr){
     return arr.some(num => num>2)
 }
 console.log(some_f([1,2,3,4,5]))
+
+
+//Last Index Of
+//It seraches from last index of on array i.e. left to right
+function last_index(arr , value){
+    return arr.lastIndexOf(value);
+}
+console.log(last_index(["apple" , "mango" , "strawberry" , "papaya" , "apple" , "mango" ] , "mango"))
