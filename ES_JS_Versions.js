@@ -51,3 +51,23 @@ console.log(Date.now());
 
 //ISO Format
 console.log(new Date().toISOString());
+
+
+//getter property in objects
+var person = {
+    first_name : "Hello",
+    last_name : "World",
+    language : "NO" ,
+    get fullName(){
+        return `${this.first_name} ${this.last_name}`;
+    },
+    set lang(value){
+        this.language = value;
+    }
+}
+console.log(person.fullName);
+console.log(person.language);
+person.lang = "en";
+console.log(person.language);
+person.lang = "Hindi";
+console.log(person.language);
