@@ -160,4 +160,14 @@ function from_arr(str){
 console.log(from_arr("ABCDEFGHIJK"))
 
 
+//Math Methods
+//trunc method returns integer part of x.
+console.log(Math.trunc(3.2));
+console.log(Math.trunc(0.2));
+console.log(Math.trunc(6.1));
+console.log(Math.trunc(9.02));
+console.log(Math.trunc(1.9));
+console.log(Math.trunc(4.0));
+
+
 
