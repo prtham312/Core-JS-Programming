@@ -170,4 +170,13 @@ console.log(Math.trunc(1.9));
 console.log(Math.trunc(4.0));
 
 
+//Sign method 1 if positive else 0 
+console.log(Math.sign(1.2));
+console.log(Math.sign(0.0));
+console.log(Math.sign(-1.2));
+console.log(Math.sign(-0.0));
+
+
+
+
 
