@@ -177,6 +177,13 @@ console.log(Math.sign(-1.2));
 console.log(Math.sign(-0.0));
 
 
+//cbrt of a number
+console.log(Math.cbrt(8));
+console.log(Math.cbrt(27));
+console.log(Math.cbrt(64));
+console.log(Math.cbrt(90));
+
+
 
 
 
