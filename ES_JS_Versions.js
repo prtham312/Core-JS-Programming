@@ -28,3 +28,9 @@ function every_f(arr){
     return arr.every(num => num>2)
 }
 console.log(every_f([1,2,3,4,5]))
+
+//Some
+function some_f(arr){
+    return arr.some(num => num>2)
+}
+console.log(some_f([1,2,3,4,5]))
