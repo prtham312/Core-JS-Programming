@@ -90,3 +90,20 @@ console.log(filter_arr([1,2,3,4,5,6,7,8]))
 const man = Object.create(person);
 man.name = "kaise ho";
 console.log(man.name);
+
+
+//bind two objects
+const human = {
+    friend1 : "Raj",
+    friend2 : "Diwas",
+    fullName : function(){
+            return `${this.friend1} and ${this.friend2} are best friends.`;
+    }
+}
+const Animal = {
+    friend1 : "Anik",
+    friend2 : "Dhruv"
+}
+let fullName = human.fullName.bind(Animal);
+console.log(human.fullName());
+console.log(fullName());
