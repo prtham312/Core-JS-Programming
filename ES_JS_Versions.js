@@ -139,3 +139,14 @@ function included(str , value){
 }
 console.log(included("Hello How Are You ? I am fine" , "Arew"))
 console.log(included([1,2,3,4,5],5));
+
+
+//entries in array
+//these are the iterators that run throughout the code for index and value.
+function entry(arr){
+    let iterators = arr.entries();
+    for(const [index,value] of iterators){
+        console.log(index,value);
+    }
+}
+entry(["a" , "b", "c" , "d" , "e", "f"])
