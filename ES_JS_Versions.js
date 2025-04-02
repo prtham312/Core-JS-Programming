@@ -184,6 +184,14 @@ console.log(Math.cbrt(64));
 console.log(Math.cbrt(90));
 
 
+//log function
+console.log(Math.log2(2));
+console.log(Math.log10(100));
+console.log(Math.log2(20));
+console.log(Math.log2(1));
+console.log(Math.log2(10));
+
+
 
 
 
