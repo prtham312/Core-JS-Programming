@@ -150,3 +150,14 @@ function entry(arr){
     }
 }
 entry(["a" , "b", "c" , "d" , "e", "f"])
+
+
+//from function
+//easily convert string to arrays
+function from_arr(str){
+    return Array.from(str);
+}
+console.log(from_arr("ABCDEFGHIJK"))
+
+
+
