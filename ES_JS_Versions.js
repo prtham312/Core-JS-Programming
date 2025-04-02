@@ -42,3 +42,9 @@ function last_index(arr , value){
     return arr.lastIndexOf(value);
 }
 console.log(last_index(["apple" , "mango" , "strawberry" , "papaya" , "apple" , "mango" ] , "mango"))
+
+
+
+//Date Function
+//milliseconds till now from january 1, 1970
+console.log(Date.now());
