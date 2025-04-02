@@ -119,3 +119,15 @@ const obj = {
 }
 let {first_name , last_name} = obj;
 console.log(first_name, last_name)
+
+
+//class in js
+class car {
+        constructor(name  ,year){
+            this.name = name;
+            this.manufacture = year;
+        }
+}
+const car1 = new car("ford", 1972);
+const car2 = new car("honda" , 2019);
+console.log(car1.manufacture);
