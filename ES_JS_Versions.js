@@ -78,3 +78,8 @@ console.log(person.language);
 console.log(person.language);
 person.lang = "Hindi";
 console.log(person.language);
+
+function filter_arr(arr){
+    return arr.map(num => num%2==0).reduce((num,total) => total+num);
+}
+console.log(filter_arr([1,2,3,4,5,6,7,8]))
