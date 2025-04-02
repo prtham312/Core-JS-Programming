@@ -107,3 +107,15 @@ const Animal = {
 let fullName = human.fullName.bind(Animal);
 console.log(human.fullName());
 console.log(fullName());
+
+
+//destructuring of array and objects
+const arr = [1,2,3,4,5,6,7];
+let [a ,b,...rest] = arr;
+console.log(rest);
+const obj = {
+    first_name : "hi",
+    last_name : "hello"
+}
+let {first_name , last_name} = obj;
+console.log(first_name, last_name)
