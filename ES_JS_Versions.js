@@ -63,11 +63,18 @@ var person = {
     },
     set lang(value){
         this.language = value;
-    }
+    }    
 }
+Object.defineProperty(person ,"language" , {
+    value : "en",
+    writable : true,
+    enumerable : true,
+    configurable : true
+
+});
 console.log(person.fullName);
 console.log(person.language);
-person.lang = "en";
+// person.lang = "en";
 console.log(person.language);
 person.lang = "Hindi";
 console.log(person.language);
