@@ -172,4 +172,6 @@ cntr.increment();
     const {names ,age} = obj;
     console.log(names ,age);
     console.log(obj)
+    const arr = Object.values(obj)
+    console.log(arr)
 }
