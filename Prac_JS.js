@@ -101,4 +101,13 @@ cntr.increment();
         console.log(obj);
     }
 
+
+    {
+        //Merging two maps
+        const map1 = new Map([['a',1],['b',2]])
+        const map2 = new Map([['c',3],['d',4]])
+        const merged_map = new Map([...map1 , ...map2])
+        console.log(merged_map)
+    }
+
 }
