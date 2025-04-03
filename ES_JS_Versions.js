@@ -41,7 +41,7 @@ console.log(some_f([1,2,3,4,5]))
 function last_index(arr , value){
     return arr.lastIndexOf(value);
 }
-console.log(last_index(["apple" , "mango" , "strawberry" , "papaya" , "apple" , "mango" ] , "mango"))
+console.log(last_index(["apple" , "mango" , "strawberry" , "papaya" , "apple" , "mango" ] , "Mango"))
 
 
 
