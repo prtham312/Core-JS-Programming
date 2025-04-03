@@ -1,4 +1,5 @@
 //Weak map
+{
 const weakmap = new WeakMap(); //always has object as a key and and has weak reference to them
 const obj1 = { id : 1}
 const obj2 = { id : 2}
@@ -30,3 +31,19 @@ class Counter {
 const cntr = new Counter();
 cntr.increment();
 cntr.increment();
+//weak map does not support iterations and values() , entries() and methods()
+}
+//weakSet
+//it only contains object values
+{
+    const weakset = new WeakSet();
+    let obj1 = {id : 1}
+    let obj2 = {id : 2}
+    weakset.add(obj1);
+    weakset.add(obj2);
+    console.log(weakset.has(obj1));
+    console.log(weakset.has(obj1));
+    obj1=null;
+    console.log(weakset.has(obj1));
+
+}
