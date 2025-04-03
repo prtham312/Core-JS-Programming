@@ -11,3 +11,22 @@ console.log(weakmap.has(obj2)); // check if object is in weakmap or not
 //deleting the weakmap object
 weakmap.delete(obj2)
 console.log(weakmap.has(obj2)); // returns false as object has been delete
+
+//private properties of weakmap
+//data in private property can only be accessed by its instance
+const privateData = new WeakMap();
+class Counter {
+    constructor(){
+        privateData.set(this , {count : 0});
+    }
+
+    increment(){
+        const incr = privateData.get(this);
+        incr.count++;
+        console.log(`The count is ${incr.count}`)
+    }
+
+}
+const cntr = new Counter();
+cntr.increment();
+cntr.increment();
