@@ -74,4 +74,20 @@ cntr.increment();
         console.log(`${key} : ${value}`)
     }
 
+
+    
+    {
+        //Q1
+        const map = new Map([
+            ["apples" , 200],
+            ["banana" , 300],
+            ["oranges" , 400]
+        ])
+        map.set("apples" ,250)
+        map.delete("oranges");
+        console.log(map.has("banana"));
+        console.log(map.size)
+        console.log(map);
+    }
+
 }
