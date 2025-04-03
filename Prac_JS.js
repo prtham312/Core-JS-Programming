@@ -55,6 +55,7 @@ cntr.increment();
 
 //Map
 {
+    //implementation
     const map = new Map();
     let obj1 = {id : 1}
     let obj2 = {id : 2}
@@ -62,4 +63,15 @@ cntr.increment();
     map.set(obj2 , "World");
     console.log(map.get(obj1))
     console.log(map.get(obj2))
+
+    //itertaing through map
+    const fruits = new Map([
+        [1 , "banana"],
+        [2 , "apple"],
+        [3 , "papaya"]
+    ])
+    for( let [key,value] of fruits){
+        console.log(`${key} : ${value}`)
+    }
+
 }
