@@ -175,3 +175,13 @@ cntr.increment();
     const arr = Object.values(obj)
     console.log(arr)
 }
+
+{
+    //array question
+    const arr = ["george" , "joshua" , "sam"];
+    const map = new Map();
+    for(let x of arr){
+        map.set(x,x.length)
+    }
+   console.log(map)
+}
