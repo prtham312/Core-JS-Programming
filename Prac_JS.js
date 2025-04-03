@@ -136,5 +136,20 @@ cntr.increment();
         const [...rest] = arr
         console.log(rest)
     }
+    {
+        const obj = {
+            names : "hello",
+            maiden_name : "world",
+            hobbies : {
+                    sports : "badminton",
+                    racing : "cars"
+            },
+            fullname : (names , maiden_name)=>{console.log(`my name is ${obj.names} ${obj.maiden_name}`)}
+        }
+        const {maiden_name , hobbies : {sports} , fullname} = obj
+        console.log(maiden_name , sports)
+        console.log(fullname())
+
+    }
 
 }
