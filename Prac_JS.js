@@ -202,3 +202,11 @@ cntr.increment();
         const newarr = [...new Set(arr)].sort((a,b) => a-b)
         console.log(newarr)
     }
+
+    {
+        //slice and splice
+        const arr = ["banana" , "apple" , "orange" , "kiwi"];
+        console.log(arr.slice(0,2));
+        console.log(arr.splice(1,2,"strawberry"))
+        console.log(arr)
+    }
