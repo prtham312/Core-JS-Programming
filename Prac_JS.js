@@ -90,4 +90,15 @@ cntr.increment();
         console.log(map);
     }
 
+    {
+        //converting object to map
+        const obj = { 
+            "mumbai" : 32,
+            "chennai" : 62
+        }
+        const map = new Map(Object.entries(obj))
+        console.log(map);
+        console.log(obj);
+    }
+
 }
