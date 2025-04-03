@@ -210,3 +210,13 @@ cntr.increment();
         console.log(arr.splice(1,2,"strawberry"))
         console.log(arr)
     }
+
+
+
+    //mapping elements in array and doing it double
+    {
+        function double(arr){
+            return arr.map((item) => item*item)
+        }
+        console.log(double([1,2,3,4,5,6]))
+    }
