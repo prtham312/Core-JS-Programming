@@ -185,3 +185,12 @@ cntr.increment();
     }
    console.log(map)
 }
+
+{
+    //max element using reduce()
+    const arr = [1,2,3,4,5,6,7,8];
+    function maxel(arr){
+        return arr.reduce((current , max) => current>max?current:max , -Infinity)
+    }
+    console.log(maxel(arr))
+    }
