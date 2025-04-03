@@ -110,4 +110,19 @@ cntr.increment();
         console.log(merged_map)
     }
 
+    {
+        //inverting a map
+        const map = new Map([
+            ["apples" , 200],
+            ["banana" , 300],
+            ["oranges" , 400]
+        ])
+        const map1 =new Map();
+        for(let [key,values] of map){
+            map1.set(values,key)    
+        }
+        console.log(map)
+        console.log(map1)
+    }
+
 }
