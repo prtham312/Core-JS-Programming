@@ -33,6 +33,9 @@ cntr.increment();
 cntr.increment();
 //weak map does not support iterations and values() , entries() and methods()
 }
+
+
+
 //weakSet
 //it only contains object values
 {
@@ -46,4 +49,17 @@ cntr.increment();
     obj1=null;
     console.log(weakset.has(obj1));
 
+}
+
+
+
+//Map
+{
+    const map = new Map();
+    let obj1 = {id : 1}
+    let obj2 = {id : 2}
+    map.set(obj1);
+    map.set(obj2 , "World");
+    console.log(map.get(obj1))
+    console.log(map.get(obj2))
 }
