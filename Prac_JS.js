@@ -220,3 +220,11 @@ cntr.increment();
         }
         console.log(double([1,2,3,4,5,6]))
     }
+
+
+    {
+        //flattening the nested array
+        const arr = [1,2,[3,4,[5,6]]]
+        console.log(arr);
+        console.log(arr.flat(Infinity));
+    }
