@@ -153,3 +153,23 @@ cntr.increment();
     }
 
 }
+
+//reference in object
+{
+    const obj = {
+        names : "hello",
+        maiden_name : "world",
+        hobbies : {
+                sports : "badminton",
+                racing : "cars"
+        },
+        fullname : function(names , maiden_name){console.log(`my name is ${obj.names} ${obj.maiden_name}`)}
+    }
+    const x = obj; //x has reference to obj
+    x.names = "Hi" //any updation of x will refelct in obj
+    x.age = 25 ;
+    delete obj.maiden_name;
+    const {names ,age} = obj;
+    console.log(names ,age);
+    console.log(obj)
+}
