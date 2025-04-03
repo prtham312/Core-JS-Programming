@@ -126,3 +126,15 @@ cntr.increment();
     }
 
 }
+
+{
+    //Destructuring
+    {
+        const arr = [1,2,3,4,5,6,7]
+        const [first,last]= arr
+        console.log(first)
+        const [...rest] = arr
+        console.log(rest)
+    }
+
+}
