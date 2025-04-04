@@ -216,7 +216,7 @@ cntr.increment();
 
 
 
-    //mapping elements in array and doi5ng it double
+    //mapping elements in array and doing it double
     {
         function double(arr){
             return arr.map((item) => item*item)
@@ -260,4 +260,11 @@ cntr.increment();
             console.log(arr.pop())
             console.log(arr.join(" "))
         }
+        {
+            //slice and substring
+            let str = "HI Hi How Are You"
+            console.log(str.substring(2,7)) //end is not included
+            console.log(str.slice(2,7))
+        }
     }
+    
