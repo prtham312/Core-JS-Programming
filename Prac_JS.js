@@ -228,3 +228,13 @@ cntr.increment();
         console.log(arr);
         console.log(arr.flat(Infinity));
     }
+
+    {
+        //String Questions
+
+        {
+            //length
+            let str = "abjsbbwjchbwwka"
+            console.log(str.length);
+        }
+    }
