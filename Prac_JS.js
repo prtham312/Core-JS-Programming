@@ -251,8 +251,13 @@ cntr.increment();
             let str = "JavaScript is a element"
             console.log(str.charAt(4));
             console.log(str.at(4));
-
-
-            
+        }
+        {
+            // split , pop and join method
+            let str = "Hello Hi How Are You"
+            console.log(Array.from(str))
+            const arr = Array.from(str.split(" "))
+            console.log(arr.pop())
+            console.log(arr.join(" "))
         }
     }
