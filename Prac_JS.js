@@ -165,6 +165,7 @@ cntr.increment();
         },
         fullname : function(names , maiden_name){console.log(`my name is ${obj.names} ${obj.maiden_name}`)}
     }
+    console.log(Array.isArray(obj))
     const x = obj; //x has reference to obj
     x.names = "Hi" //any updation of x will refelct in obj
     x.age = 25 ;
@@ -207,13 +208,15 @@ cntr.increment();
         //slice and splice
         const arr = ["banana" , "apple" , "orange" , "kiwi"];
         console.log(arr.slice(0,2));
-        console.log(arr.splice(1,2,"strawberry"))
+        console.log(arr.splice(1,1))
         console.log(arr)
+        // delete arr[1]
+        // console.log(arr)
     }
 
 
 
-    //mapping elements in array and doing it double
+    //mapping elements in array and doi5ng it double
     {
         function double(arr){
             return arr.map((item) => item*item)
@@ -228,6 +231,11 @@ cntr.increment();
         console.log(arr);
         console.log(arr.flat(Infinity));
     }
+    {
+        const arr = [1, 2, 3, 4, 5];
+        arr.copyWithin(1, 2 ,4); // Copy elements from index 3 to the end into index 0
+        console.log(arr);
+        }
 
     {
         //String Questions
@@ -236,5 +244,15 @@ cntr.increment();
             //length
             let str = "abjsbbwjchbwwka"
             console.log(str.length);
+        }
+
+        {
+            //charAt and at()
+            let str = "JavaScript is a element"
+            console.log(str.charAt(4));
+            console.log(str.at(4));
+
+
+            
         }
     }
